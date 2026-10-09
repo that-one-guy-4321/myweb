@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khondwani Banda | Computer Science Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+    <script src="js/script.js" defer></script>
+    <form id="contact-form" novalidate></form>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the world of Web Programming</h1>
+
+        <button type="button" id="theme-toggle">
+            Switch To Dark Mode
+        </button>
+    </header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#learning-plan">Learning Plan</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">W3SCHOOLS</a></li>
+    </ul>
+</nav>
+
+<main>
+  <section id="about" class="content-section">
+    <h2>About Me</h2>
+    <p>
+        My name is Khondwani Banda, and I am a student at Mulungushi University. I am currently pursuing a Bachelor's degree in Computer Science. I have a strong interest in web development and programming, and I am excited to learn more about these fields through my coursework. Outside of academics, I enjoy watching movies, playing video games, and exploring new technologies. I am eager to apply my skills and knowledge to real-world projects and contribute to the tech community.
+    </p>
+  </section>
+
+  <section id="hobbies" class="content-section">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Watching Movies.</li>
+      <li>Playing Video Games.</li>
+      <li>Counting Down The Seconds until My Inevitable End.</li>
+    </ul>
+  </section>
+
+  <section id="learning-plan" class="content-section">
+    <h2>My Learning Plan</h2>
+    <ol>
+      <li>Practice CSS and HTML via W3SCHOOLS</li>
+      <li>Learn and understand the basics of Java and JavaFX</li>
+      <li>Build a small project each month</li>
+    </ol>
+    <table>
+        <caption>My Learning Plan</caption>
+        <thead>
+            <tr>
+                <th scope="col">DAY</th>
+                <th scope="col">GOAL</th>
+                <th scope="col">PRACTICE TASK</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>Learn CSS</td>
+                <td>Complete CSS exercises on W3Schools</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Learn HTML</td>
+                <td>Complete HTML exercises on W3Schools</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>Learn Java Basics</td>
+                <td>Read Java tutorials and practice coding</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Learn JavaFX Basics</td>
+                <td>Create a simple JavaFX application</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Build a Small Project</td>
+                <td>Work on a small project using learned skills</td>
+            </tr>
+        </tbody>
+    </table>
+  </section>
+
+  <section id="projects" class="content-section">
+
+    <h2>My Projects and Skills</h2>
+
+    <!-- Project 1 -->
+    <article class="project-card">
+
+        <h3>Personal Portfolio Website</h3>
+
+        <p>
+            A personal website developed using HTML, CSS,
+            and JavaScript to demonstrate my web development skills.
+        </p>
+
+        <button
+            type="button"
+            class="details-toggle"
+            aria-expanded="false"
+            aria-controls="project-details-1"
+        >
+            Show details
+        </button>
+
+        <div id="project-details-1" hidden>
+
+            <p>
+                This project includes structured HTML,
+                external CSS styling, navigation links,
+                multimedia content, and interactive JavaScript features.
+            </p>
+
+            <p>
+                Technologies: HTML5, CSS3, JavaScript.
+            </p>
+
+        </div>
+
+    </article>
+
+    <!-- Project 2 -->
+    <article class="project-card">
+
+        <h3>Weekly Learning Plan</h3>
+
+        <p>
+            A structured learning schedule for improving
+            my programming and web development knowledge.
+        </p>
+
+        <button
+            type="button"
+            class="details-toggle"
+            aria-expanded="false"
+            aria-controls="project-details-2"
+        >
+            Show details
+        </button>
+
+        <div id="project-details-2" hidden>
+
+            <p>
+                The schedule covers CSS, HTML, Java fundamentals,
+                JavaFX basics, and the development of small projects.
+            </p>
+
+            <p>
+                Technologies and topics: HTML, CSS, Java, JavaFX.
+            </p>
+
+        </div>
+
+    </article>
+
+    <!-- Project 3 -->
+    <article class="project-card">
+
+        <h3>Interactive Contact Form</h3>
+
+        <p>
+            A browser-based contact form demonstrating
+            input validation and dynamic message previews.
+        </p>
+
+        <button
+            type="button"
+            class="details-toggle"
+            aria-expanded="false"
+            aria-controls="project-details-3"
+        >
+            Show details
+        </button>
+
+        <div id="project-details-3" hidden>
+
+            <p>
+                JavaScript validates the visitor's name,
+                email address, and message before displaying
+                a preview of the submitted information.
+            </p>
+
+            <p>
+                Technologies: HTML forms, JavaScript DOM manipulation,
+                and form validation.
+            </p>
+
+        </div>
+
+    </article>
+
+</section>
+
+  <section id="photos" class="content-section">
+
+    <h2>My Photos</h2>
+
+    <div id="gallery" class="gallery">
+
+        <figure>
+            <img
+                src="images/photo1.jpg"
+                alt="Studying in the library"
+                width="300"
+            >
+            <figcaption>
+                Studying for my ICT251 project.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img
+                src="images/photo2.jpg"
+                alt="Thinking about my CSS and HTML project"
+                width="300"
+            >
+            <figcaption>
+                Thinking about my CSS and HTML project.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img
+                src="images/photo3.jpg"
+                alt="Finishing a gym session"
+                width="300"
+            >
+            <figcaption>
+                Finishing up in the gym before dedicating time to CSS.
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img
+                src="images/photo4.jpg"
+                alt="Relaxing after a busy day"
+                width="300"
+            >
+            <figcaption>
+                Turning in after a busy day.
+            </figcaption>
+        </figure>
+
+    </div>
+
+    <div id="gallery-controls" hidden>
+
+        <button type="button" id="gallery-prev">
+            Previous
+        </button>
+
+        <span id="gallery-status" aria-live="polite"></span>
+
+        <button type="button" id="gallery-next">
+            Next
+        </button>
+
+    </div>
+
+</section>
+    
+  <section id="media" class="content-section">
+  <h2>My Media</h2>
+  <video controls src="videos/video.mp4" width="320"></video>
+  <p>Transcript: "Hi, I'm Khondwani, a Computer Science student at Mulungushi University learning web technologies..."</p>
+  <audio controls src="videos/audio.mp3?v=2"></audio>
+  <p>A short audio clip about my favourite hobby.</p>
+</section>
+
+  <section id="contact" class="content-section">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Use the form below to send a message preview.
+        This is a browser demonstration and does not
+        actually send or store your message.
+    </p>
+
+    <form id="contact-form">
+
+        <!-- Name -->
+        <div class="form-group">
+
+            <label for="name">Name:</label>
+
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                aria-describedby="name-error"
+            >
+
+            <small
+                id="name-error"
+                class="field-error"
+                aria-live="polite"
+            ></small>
+
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+
+            <label for="email">Email:</label>
+
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                aria-describedby="email-error"
+            >
+
+            <small
+                id="email-error"
+                class="field-error"
+                aria-live="polite"
+            ></small>
+
+        </div>
+
+        <!-- Topic -->
+        <div class="form-group">
+
+            <label for="topic">Topic:</label>
+
+            <select id="topic" name="topic">
+
+                <option value="General">General</option>
+
+                <option value="Feedback">Feedback</option>
+
+                <option value="Project Inquiry">
+                    Project Inquiry
+                </option>
+
+            </select>
+
+        </div>
+
+        <!-- Message -->
+        <div class="form-group">
+
+            <label for="message">Message:</label>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                aria-describedby="message-error"
+            ></textarea>
+
+            <small
+                id="message-error"
+                class="field-error"
+                aria-live="polite"
+            ></small>
+
+        </div>
+
+        <!-- Buttons -->
+        <div class="form-buttons">
+
+            <button type="submit">
+                Preview Message
+            </button>
+
+            <button type="reset">
+                Clear Form
+            </button>
+
+        </div>
+
+    </form>
+
+    <!-- Message preview -->
+    <div id="form-preview" hidden>
+
+        <h3>Message Preview</h3>
+
+        <p
+            id="preview-status"
+            aria-live="polite"
+        ></p>
+
+        <p>
+            <strong>Name:</strong>
+            <span id="preview-name"></span>
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            <span id="preview-email"></span>
+        </p>
+
+        <p>
+            <strong>Topic:</strong>
+            <span id="preview-topic"></span>
+        </p>
+
+        <p>
+            <strong>Message:</strong>
+        </p>
+
+        <p id="preview-message"></p>
+
+    </div>
+
+</section>
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required><br>
+
+  <label for="topic">Topic:</label>
+  <select id="topic" name="topic">
+    <option>General</option>
+    <option>Feedback</option>
+  </select><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" required></textarea><br>
+
+  <button type="submit">Send</button>
+</form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Khondwani Banda</p>
+</footer>
+
+</body>
+</html>
